@@ -41,7 +41,6 @@ body {
 }
 
 .grid--center-v {
-	/* align-items: center; */
 	place-items: center;
 }
 
