@@ -16,6 +16,7 @@
 	<body>
 		<header class="primary-header">
 			<div class="container">
+				<!-- Flex utility를 사용해서 container에 추가할 수 있지만 자주 사용되지 않기에 만들지 않고 flex div를 만듬. -->
 				<div class="nav-wrapper">
 					<a href="#"><img src="images/logo.svg" alt="Manage" /></a>
 					<button
@@ -53,7 +54,9 @@
 							<li><a href="#">Community</a></li>
 						</ul>
 					</nav>
-					<button style="display: none" class="button">Get Started</button>
+					<button class="button | display-sm-none display-md-inline-flex">
+						Get Started
+					</button>
 				</div>
 			</div>
 		</header>
